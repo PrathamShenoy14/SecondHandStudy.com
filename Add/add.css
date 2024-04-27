@@ -1,0 +1,104 @@
+body{
+    margin: 0px;
+    height: 100lvh;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    background-image: url("https://img.freepik.com/free-photo/top-view-office-stationery-with-calculator-copy-space_23-2148524793.jpg?size=626&ext=jpg&ga=GA1.1.1700460183.1712793600&semt=ais");
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-position:center; */
+}
+
+.container-wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    border: 1px solid black;
+    padding: 30px;
+    width: max-content;
+    font-family: Arial, Helvetica, sans-serif;
+    height: max-content;
+    border-radius: 10px;
+    border: none;
+    background-color:hsl(0, 100%, 97%);
+}
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: max-content;
+}
+
+.dancing-script{
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: normal;
+    font-size: 2.5rem;
+}
+
+.form-control{
+    width: 100%;
+    margin: 0px 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 6px 0px;
+}
+
+.form-control input,select{
+    width: 100%;
+    border: 2px solid black;
+    border-radius: 10px;
+    height: 30px;
+    font-weight: bold;
+    margin-bottom: 5px;
+    margin-top: 2px;
+    outline: none;
+    border: 0.5px solid hsl(194, 77%, 67%) ;
+    background-color: hsl(194, 77%, 87%);
+}
+
+.form-control.success input{
+    border-color: rgb(22, 186, 22);
+}
+
+.form-control.failure input{
+    border-color: red;
+}
+
+.form-control .error{
+    font-size: 13px;
+    color: red;
+    height: 13px;
+    /* display: none; */
+}
+
+#submit{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 300;
+    font-size: 1rem;
+    padding: 10px 7px;
+    width: 100%;
+    border-radius: 10px;
+    background-color: hsl(336, 100%, 50%);
+    outline: none;
+    border: none;
+    color: white;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+#submit:hover{
+    background-color: hsl(336, 100%, 60%);
+}
+
+.nav-links ul li a:hover{
+    color: red;
+}
+
+#image{
+    all: unset;
+}
