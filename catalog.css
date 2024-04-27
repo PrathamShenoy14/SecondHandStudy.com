@@ -1,0 +1,45 @@
+.product-card-wrapper{
+    flex-wrap: wrap;
+}
+
+.product-card{
+    margin-bottom: 50px;
+}
+
+#filter{
+    font-weight: bold;
+    padding: 5px 10px;
+    font-size: 1.25rem;
+    margin-left:40px;
+    margin-right:10px ;
+    background-color: transparent;
+    border: 2px solid black;
+    border-radius: 6px;
+}
+
+#submit_filter{
+    font-weight: bold;
+    padding: 2px 12px;
+    font-size: 1.25rem;
+    background-color:black;
+    border:2px solid black;
+    border-radius: 6px;
+    color: white;
+}
+
+#submit_filter:hover{
+    background-color: transparent;
+    color: black;
+}
+
+#submit_search{
+    padding:5px 10px;
+    margin-left: 3px;
+    font-weight: bold;
+    background-color: transparent;
+    border-radius: 8px;
+}
+#submit_search:hover{
+    background-color: black;
+    color: white;
+}
